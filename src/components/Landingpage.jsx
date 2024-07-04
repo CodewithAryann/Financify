@@ -16,7 +16,7 @@ function Landingpage() {
           </video>
         </div>
         <div className="bg-overlay bg-[rgba(0,0,0,.4)] w-[100%] h-[100%] absolute z-3 top-0 left-0 "></div>
-      <div className="textstructure mt-[12rem] px-[3.5rem] leading-7">
+      <div className="textstructure mt-[12rem] px-[3.4rem] leading-7">
         {["A Better Mortgage", "Experience, Without","The Hassle."].map(
           (item, index) => {
             return (
@@ -29,6 +29,7 @@ function Landingpage() {
           }
         )}
       </div>
+      <div className="border-t-[1px] border-zinc-100 mt-10"></div>
     </div>
   );
 }
