@@ -2,7 +2,7 @@ import React from 'react'
 
 function Navbar() {
   return (
-    <div className='fixed z-[999] w-full pl-[3rem] pr-[3rem] py-[1.5rem] font-["Neue Montreal"] flex justify-between items-center text-white '>
+    <div className='nav fixed z-[999] w-full pl-[3rem] pr-[3rem] py-[1.5rem] font-["Neue Montreal"] flex justify-between items-center text-white '>
       <div>
         <img className='w-[8rem]' src="https://financify.ae/wp-content/uploads/2023/06/123456.png" alt="" />
       </div>

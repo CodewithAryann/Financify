@@ -29,7 +29,10 @@ function Landingpage() {
           }
         )}
       </div>
-      <div className="border-t-[1px] border-zinc-100 mt-10"></div>
+      <div className="Get-start">
+        <button class="btn">Get Started</button>
+      </div>
+      {/* <div className="border-t-[1px] border-zinc-100 mt-10"></div> */}
     </div>
   );
 }
