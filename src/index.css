@@ -3,7 +3,6 @@
 @tailwind components;
 @tailwind utilities;
 
-/* styles.css */
 video {
     position: absolute;
     top: 0;
