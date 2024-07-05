@@ -57,7 +57,7 @@ video {
     text-align: center;
   }
   
-
+/* 
   .btn {
     width: 8em;
     height: 3em;
@@ -99,6 +99,124 @@ video {
     transition: all 0.5s;
    }
    .arrow{
-    color: rgb(255, 255, 255);
-    border: 1px solid black;
+    background-color: white;
+    width: 58px;
+    height: 57px;
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
    }
+
+  
+  .arrow:hover {
+    color: white;
+  }
+  
+  .arrow:after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: -20%;
+    right: -20%;
+    top: 0;
+    bottom: 0;
+    background: linear-gradient(45deg, rgba(122,96,247,1) 0%, rgba(46,168,238,1) 100%);
+    transform: skewX(-45deg) scale(0, 1);
+    transition: all 0.5s;
+  }
+  
+  .arrow:hover:after {
+    transform: skewX(-45deg) scale(1, 1);
+    transition: all 0.5s;
+  }
+  .Get-start{
+
+  }
+   */
+   .btn {
+    width: 8em;
+    height: 3em;
+    margin: 0.5em;
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 0.625em;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    margin-left: 3.4rem;
+    margin-top: 1rem;
+    transition: color 0.5s;
+  }
+  
+  .btn:hover, .group:hover .btn {
+    color: rgb(255, 255, 255);
+  }
+  
+  .btn:after, .group:hover .btn:after {
+    content: "";
+    background: linear-gradient(45deg, rgba(122,96,247,1) 0%, rgba(46,168,238,1) 100%);
+    position: absolute;
+    z-index: -1;
+    left: -20%;
+    right: -20%;
+    top: 0;
+    bottom: 0;
+    transform: skewX(-45deg) scale(0, 1);
+    transition: all 0.5s;
+  }
+  
+  .btn:hover:after, .group:hover .btn:after {
+    transform: skewX(-45deg) scale(1, 1);
+    transition: all 0.5s;
+  }
+  .arrow {
+    width: 58px;
+    height: 57px;
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 50%;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    transition: color 0.5s;
+  }
+  
+  .arrow:hover, .group:hover .arrow {
+    color: white;
+  }
+  
+  .arrow:after, .group:hover .arrow:after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 50%;
+    top: 50%;
+    width: 0;
+    height: 0;
+    background: linear-gradient(45deg, rgba(122,96,247,1) 0%, rgba(46,168,238,1) 100%);
+    border-radius: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    transition: transform 0.5s, width 0.5s, height 0.5s;
+  }
+  
+  .arrow:hover:after, .group:hover .arrow:after {
+    width: 200%;
+    height: 200%;
+    transform: translate(-50%, -50%) scale(1);
+  }
+  

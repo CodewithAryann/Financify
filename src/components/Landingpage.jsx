@@ -30,9 +30,9 @@ function Landingpage() {
           }
         )}
       </div>
-      <div className="Get-start flex">
+      <div className="Get-start flex absolute z-1 group">
         <button class="btn">Get Started</button>
-        <div className="mt-5 arrow w-[58px] h-[57px] flex items-center justify-center rounded-full ">
+        <div className="arrow mt-5 arrow w-[58px] h-[57px] flex items-center justify-center rounded-full ">
           <span className="rotate-[45deg]">
             <FaArrowUp />
           </span>
