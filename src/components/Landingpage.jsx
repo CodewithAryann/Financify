@@ -38,7 +38,6 @@ function Landingpage() {
           </span>
         </div>
       </div>
-      {/* <div className="border-t-[1px] border-zinc-100 mt-10"></div> */}
     </div>
   );
 }
