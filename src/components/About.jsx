@@ -1,4 +1,5 @@
 import React from "react";
+import { FaArrowUp } from "react-icons/fa6";
 
 function About() {
   return (
@@ -25,6 +26,7 @@ function About() {
           <p className='font-["Montserrat"] mb-3 '>Social Media:</p>
           <div className="grid decoration-solid decoration-white">
             <a
+              className="link"
               href="https://www.facebook.com/financifygroup?mibextid=LQQJ4d"
               target="_blank"
               rel
@@ -32,6 +34,7 @@ function About() {
               Facebook
             </a>
             <a
+              className="link"
               href="https://www.instagram.com/financify.ae/?igshid=MjEwN2IyYWYwYw%3D%3D"
               target="_blank"
               rel
@@ -39,6 +42,7 @@ function About() {
               Instagram
             </a>
             <a
+              className="link"
               href="https://ae.linkedin.com/company/financify-mortgage"
               target="_blank"
               rel
@@ -46,6 +50,7 @@ function About() {
               Linkedin
             </a>
             <a
+              className="link"
               href="https://www.youtube.com/channel/UCKxaFK18Slauz8zXfzdRfSQ"
               target="_blank"
               rel
@@ -80,9 +85,22 @@ function About() {
                 </li>
                 <li>Need to move quickly</li>
               </ul>
-              {/* <a className="read" href=""><span className="btn-text">Read More</span><i className="btn-icon"><FontAwesomeIcon icon="fa-solid fa-arrow-right" /></i></a> */}
+              <div className="read-btn cursor-pointer mt-10 bg-white text-black w-[176px] pr-5 pl-5 pt-3 pb-3 rounded-2xl flex gap-7 group hover:bg-[linear-gradient(45deg, rgba(122,96,247,1) 0%, rgba(46,168,238,1) 100%)]">
+                <a className="text-[16px] flex items-center" href="">
+                  Read More
+                  <div className="btn-arrow bg-black rounded-full w-[30px] h-[30px] mt-[1px] text-white ml-7 group-hover:bg-white transition-all duration-300 ease-in-out">
+                    <span className="flex rotate-[45deg] items-center mt-[10px] ml-[6px] group-hover:text-black transition-all duration-300 ease-in-out">
+                      <FaArrowUp />
+                    </span>
+                  </div>
+                </a>
+              </div>
             </div>
-            <img className="w-[30vw] h-[20vw] mt-10 rounded-[6px]" src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?q=80&w=1973&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
+            <img
+              className="w-[30vw] h-[20vw] mt-10 rounded-[6px] object-cover mr-4 group-hover:scale-75 transition-all duration-300 ease-in-out"
+              src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?q=80&w=1973&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              alt=""
+            />
           </div>
         </div>
       </div>

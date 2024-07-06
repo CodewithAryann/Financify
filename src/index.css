@@ -155,3 +155,14 @@ video {
 ul.custom-bullets li::marker {
     color: rgb(78, 93, 225); 
 }
+.link:hover{
+  color: rgb(78, 93, 225);
+  text-decoration: underline;
+}
+.read-btn:hover{
+  background: linear-gradient(45deg, rgba(122,96,247,1) 0%, rgba(46,168,238,1) 100%);
+  color: white;
+}
+.btn-arrow:hover{
+  background: white
+}
