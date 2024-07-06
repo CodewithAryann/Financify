@@ -61,19 +61,28 @@ function About() {
           New Purchase:
         </h1>
         <div>
-          <div>
-            <p className="mt-10 font-['Montserrat'] font-medium text-1xl ">
-              Buying a home is exciting but it may become tricky if you require
-              a Mortgage. Whether you are searching for your first property or
-              later, at Financify we aim to turn your property aspiration into
-              reality based on our skillset and experience
-            </p>
-            <p className="mt-10 font-['Montserrat'] font-medium text-1xl">Mortgage can be difficult especially if customers:</p>
-            <ul className="custom-bullets">
-              <li>Have complexities in their profile</li>
-              <li>Are not sure which lender / Financial Institution is best suited</li>
-              <li>Need to move quickly</li>
-            </ul>
+          <p className="mt-10 mr-10 font-['Montserrat'] font-medium text-1xl ">
+            Buying a home is exciting but it may become tricky if you require a
+            Mortgage. Whether you are searching for your first property or
+            later, at Financify we aim to turn your property aspiration into
+            reality based on our skillset and experience
+          </p>
+          <div className="flex gap-[21vw]">
+            <div>
+              <p className="mt-10 font-['Montserrat'] font-medium text-1xl">
+                Mortgage can be difficult especially if customers:
+              </p>
+              <ul className="custom-bullets pl-5 pt-5 pr-5">
+                <li>Have complexities in their profile</li>
+                <li>
+                  Are not sure which lender / Financial Institution is best
+                  suited
+                </li>
+                <li>Need to move quickly</li>
+              </ul>
+              <button><a href="">Read More</a></button>
+            </div>
+            <img className="w-[30vw] h-[20vw] mt-10 rounded-[6px]" src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?q=80&w=1973&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
           </div>
         </div>
       </div>

@@ -149,4 +149,9 @@ video {
     height: 200%;
     transform: translate(-50%, -50%) scale(1);
   }
-  
+  ul.custom-bullets {
+    list-style-type: disc; 
+}
+ul.custom-bullets li::marker {
+    color: rgb(78, 93, 225); 
+}
