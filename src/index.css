@@ -166,3 +166,10 @@ ul.custom-bullets li::marker {
 .btn-arrow:hover{
   background: white
 }
+
+#img-effect:hover ~ #img-to-scale {
+  transform: scale(0.95);
+}
+.transition-all {
+  transition: all 0.8s ease-in-out;
+}
