@@ -21,9 +21,15 @@ function About() {
                 <a href="https://www.instagram.com/financify.ae/?igshid=MjEwN2IyYWYwYw%3D%3D" target="_blank" rel>Instagram</a>
                 <a href="https://ae.linkedin.com/company/financify-mortgage" target="_blank" rel>Linkedin</a>
                 <a href="https://www.youtube.com/channel/UCKxaFK18Slauz8zXfzdRfSQ" target="_blank" rel>Youtube</a>
-
             </div>
         </div>
+      </div>
+      <div className="line h-[1px] w-full bg-slate-400 mt-10 mb-10"></div>
+      <div className='new-purchase pl-16 ' >
+      <h1 className='text-3xl font-["Montserrat"] capitalize font-[500]'>New Purchase:</h1>
+      <div>
+      <p className="mt-10 font-['Montserrat'] font-medium text-1xl ">Buying a home is exciting but it may become tricky if you require a Mortgage. Whether you are searching for your first property or later, at Financify we aim to turn your property aspiration into reality based on our skillset and experience</p>
+      </div>
       </div>
     </div>
   );
