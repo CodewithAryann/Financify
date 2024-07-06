@@ -3,6 +3,7 @@ import Navbar from './components/Navbar'
 import Landingpage from './components/Landingpage'
 import Secondpage from './components/Secondpage'
 import About from './components/About'
+import Eyes from './components/Eyes'
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Landingpage/>
       <Secondpage/>
       <About/>
+      <Eyes/>
     </div>
     
   )
