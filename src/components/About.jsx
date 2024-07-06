@@ -80,7 +80,7 @@ function About() {
                 </li>
                 <li>Need to move quickly</li>
               </ul>
-              <button><a href="">Read More</a></button>
+              {/* <a className="read" href=""><span className="btn-text">Read More</span><i className="btn-icon"><FontAwesomeIcon icon="fa-solid fa-arrow-right" /></i></a> */}
             </div>
             <img className="w-[30vw] h-[20vw] mt-10 rounded-[6px]" src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?q=80&w=1973&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
           </div>
