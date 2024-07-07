@@ -58,9 +58,27 @@ function Whychoose() {
             <p className="text-center text-[24px] pr-10 pl-10 tracking-tighter">Transparency at the heart of everything we do, as we believe the best results can only be achieved with honesty, integrity, and respect. You can trust us to secure the best outcome for you while you focus your attention wherever it matters the most.</p>
           </div>
           </div>
-          
         </div>
       </div>
+      <div className="w-full px-20 mt-20 pt-5 border-b-[1px] pb-10">
+        <h1 className=" font-semibold text-4xl font-['Montserrat'] uppercase text-white text-center">Find Best Deals For You In A Jiff</h1>
+        <h2 className="font-['Montserrat'] text-white text-center pt-5 ">Financify searches over 20 financial institutions to find
+        the best option suited as per customer needs</h2>
+      </div>
+      <div className="deal">
+            <div style={{transform:`scale(0.8)`}} className="img flex">
+                <img src="https://financify.ae/wp-content/uploads/2023/06/Group-331-min.png" alt="" />
+                <img src="https://financify.ae/wp-content/uploads/2023/06/Group-20-1.png" alt="" />
+                <img src="https://financify.ae/wp-content/uploads/2023/06/Group-331-min.png" alt="" />
+                <img src="https://financify.ae/wp-content/uploads/2023/06/Group-20-1.png" alt="" />
+                <img src="https://financify.ae/wp-content/uploads/2023/06/Group-331-min.png" alt="" />
+                <img src="https://financify.ae/wp-content/uploads/2023/06/Group-20-1.png" alt="" />
+                <img src="https://financify.ae/wp-content/uploads/2023/06/Group-331-min.png" alt="" />
+            </div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
     </div>
   );
 }
