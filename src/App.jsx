@@ -4,6 +4,7 @@ import Landingpage from './components/Landingpage'
 import Secondpage from './components/Secondpage'
 import About from './components/About'
 import Eyes from './components/Eyes'
+import WhyChoose from './components/Why-choose'
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Secondpage/>
       <About/>
       <Eyes/>
+      <WhyChoose/>
     </div>
     
   )
