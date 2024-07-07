@@ -15,7 +15,7 @@ function Whychoose() {
       </div>
       <div className="px-20">
         <div className="cards w-full flex gap-10 mt-10  ">
-          <div className="cardcontainer relative w-1/2 h-[75vh]  ">
+          <div className="cardcontainer relative w-1/2 h-[75vh] transition-all cursor-default">
           <h1 className="absolute z-[9] text-6xl font-medium font-['Montserrat'] leading-none tracking-tighter left-full -translate-x-1/2 top-1/2 -translate-y-1/2 text-zinc-950 ">SERVICE
           {"SERVICE".split("").map((item,index)=><span>{item}</span>)}
           </h1>
@@ -25,7 +25,7 @@ function Whychoose() {
             <p className="text-center text-[24px] pr-10 pl-10 tracking-tighter">We deliver exceptional customer service with a straightforward approach that gets the right result at speed. In a fast-moving and often stressful world, we remove the hassle from your mortgage process and provide end-to-end service.</p>
           </div>
           </div>
-          <div className="cardcontainer relative w-1/2 h-[75vh]  overflow-hidden">
+          <div className="cardcontainer relative w-1/2 h-[75vh] transition-all cursor-default">
           <h1 className="absolute z-[9] text-6xl font-medium font-['Montserrat'] leading-none tracking-tighter right-full translate-x-1/2 top-1/2 -translate-y-1/2 text-zinc-950 ">KNOWLEAGE
           {"KNOWLEAGE".split("").map((item,index)=><span>{item}</span>)}
           </h1>
@@ -38,7 +38,7 @@ function Whychoose() {
           
         </div>
         <div className="cards w-full flex gap-10 mt-10  ">
-          <div className="cardcontainer relative w-1/2 h-[75vh]  ">
+          <div className="cardcontainer relative w-1/2 h-[75vh] transition-all cursor-default ">
           <h1 className="absolute z-[9] text-6xl font-medium font-['Montserrat'] leading-none tracking-tighter left-full -translate-x-1/2 top-1/2 -translate-y-1/2 text-zinc-950 ">SERVICE
           {"RELATIONSHIPS".split("").map((item,index)=><span>{item}</span>)}
           </h1>
@@ -48,7 +48,7 @@ function Whychoose() {
             <p className="text-center text-[24px] pr-10 pl-10 tracking-tighter">We have strong business relationships with all prominent lenders in UAE. We can work as your Mortgage Search Engine with access to wide spectrum of lenders and get you deals that are in your best interest.</p>
           </div>
           </div>
-          <div className="cardcontainer relative w-1/2 h-[75vh]  overflow-hidden">
+          <div className="cardcontainer relative w-1/2 h-[75vh] transition-all cursor-default">
           <h1 className="absolute z-[9] text-6xl font-medium font-['Montserrat'] leading-none tracking-tighter right-full translate-x-1/2 top-1/2 -translate-y-1/2 text-zinc-950 ">KNOWLEAGE
           {"TRANSPARENCYE".split("").map((item,index)=><span>{item}</span>)}
           </h1>

@@ -173,3 +173,7 @@ ul.custom-bullets li::marker {
 .transition-all {
   transition: all 0.8s ease-in-out;
 }
+
+.cardcontainer:hover{
+  transform: scale(0.95);
+}
