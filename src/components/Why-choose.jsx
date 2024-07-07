@@ -13,10 +13,19 @@ function Whychoose() {
           Why Choose Financify?
         </h1>
       </div>
-      <div>
+      <div className="px-20">
         <div className="cards w-full flex gap-10 mt-10  ">
-          <div className="card w-1/2 h-[80vh] bg-red-500"></div>
-          <div className="card w-1/2 h-[80vh] bg-red-500"></div>
+          <div className="cardcontainer w-1/2 h-[75vh] ">
+          <div className="card w-full h-full rounded-xl bg-green-600 overflow-hidden ">
+            <img className="" src="https://financify.ae/wp-content/uploads/2023/06/cloud-satellite-services-min.png" alt="" />
+            <h1>Our Service</h1>
+            <p>We deliver exceptional customer service with a straightforward approach that gets the right result at speed. In a fast-moving and often stressful world, we remove the hassle from your mortgage process and provide end-to-end service.</p>
+          </div>
+          </div>
+          <div className="cardcontainer w-1/2 h-[75vh]  overflow-hidden">
+          <div className="card w-full h-full rounded-xl bg-green-600 overflow-hidden"></div>
+          </div>
+          
         </div>
       </div>
     </div>
