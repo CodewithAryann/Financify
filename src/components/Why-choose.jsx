@@ -65,15 +65,15 @@ function Whychoose() {
         <h2 className="font-['Montserrat'] text-white text-center pt-5 ">Financify searches over 20 financial institutions to find
         the best option suited as per customer needs</h2>
       </div>
-      <div className="deal">
-            <div style={{transform:`scale(0.8)`}} className="img flex">
-                <img src="https://financify.ae/wp-content/uploads/2023/06/Group-331-min.png" alt="" />
-                <img src="https://financify.ae/wp-content/uploads/2023/06/Group-20-1.png" alt="" />
-                <img src="https://financify.ae/wp-content/uploads/2023/06/Group-331-min.png" alt="" />
-                <img src="https://financify.ae/wp-content/uploads/2023/06/Group-20-1.png" alt="" />
-                <img src="https://financify.ae/wp-content/uploads/2023/06/Group-331-min.png" alt="" />
-                <img src="https://financify.ae/wp-content/uploads/2023/06/Group-20-1.png" alt="" />
-                <img src="https://financify.ae/wp-content/uploads/2023/06/Group-331-min.png" alt="" />
+      <div className="deal mt-10">
+            <div style={{transform:`scale(0.8)`, justifyContent:`center`, alignItems:`center`}} className="img flex">
+                <img className="rotate" style={{height:`90px`, marginRight:`4px`, marginLeft:`4px`}} src="https://financify.ae/wp-content/uploads/2023/06/Group-331-min.png" alt="" />
+                <img style={{height:`10%`}} src="https://financify.ae/wp-content/uploads/2023/06/Group-20-1.png" alt="" />
+                <img className="rotate" style={{height:`90px`, marginRight:`4px`, marginLeft:`4px`}} src="https://financify.ae/wp-content/uploads/2023/06/Group-333-min.png" alt="" />
+                <img style={{height:`10%`}}  src="https://financify.ae/wp-content/uploads/2023/06/Group-20-1.png" alt="" />
+                <img className="rotate" style={{height:`85px`, marginRight:`4px`, marginLeft:`4px`}} src="src/assets/group-1.png" alt="" />
+                <img style={{height:`10%`}}  src="https://financify.ae/wp-content/uploads/2023/06/Group-20-1.png" alt="" />
+                <img className="rotate" style={{height:`85px`, marginRight:`4px`, marginLeft:`4px`}} src="src/assets/group-2.png" alt="" />
             </div>
             <div></div>
             <div></div>

@@ -177,3 +177,14 @@ ul.custom-bullets li::marker {
 .cardcontainer:hover{
   transform: scale(0.95);
 }
+
+.rotate:hover  {
+  transition: transform 0.3s ease;
+}
+
+.rotate:hover {
+  transform: rotate(360deg);
+}
+.img img:hover:not(:hover) {
+  transform: none; /* Reset transform when not hovered */
+}
