@@ -3,7 +3,7 @@ import { FaArrowUp } from "react-icons/fa6";
 
 function About() {
   return (
-    <div className="w-full pt-20 bg-white text-black rounded-tl-3xl rounded-tr-3xl">
+    <div className="w-full pt-20 bg-white text-black rounded-tl-3xl rounded-tr-3xl shadow-xl">
       <h1 className='pr-20 pl-20 pb-8 font-["Montserrat"] text-3xl leading-[3.5vw] tracking-tighter'>
         Financify is a trusted name in the UAE mortgage industry, offering a
         personalized approach to secure the best possible mortgage for its

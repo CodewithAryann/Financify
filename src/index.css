@@ -3,8 +3,9 @@
 @tailwind components;
 @tailwind utilities;
 body{
-  background-color: rgb(233 233 233);
+  background-color: #e8e8ed;
 }
+
 .link-hover {
   transition: color 0.3s;
   font-weight: 600;
