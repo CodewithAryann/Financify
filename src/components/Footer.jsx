@@ -14,7 +14,7 @@ import {
 
 function Footer() {
   return (
-    <div className="footer-cont w-full h-screen">
+    <div className="footer-cont w-full h-screen relative">
       <div className='footer  flex gap-10 p-10 pl-20 pr-16 font-["Montserrat"]'>
         <div className="w-[16vw]">
           <img
@@ -192,7 +192,7 @@ function Footer() {
           </div>
         </div>
       </div>
-      <div className='footer-background bg-[url("src/assets/group.png") w-full]'></div>
+      <div className='footer-background bg-[url("src/assets/group.png")]'></div>
     </div>
   );
 }

@@ -272,9 +272,21 @@ ul.custom-bullets li::marker {
   left: 10px;
   color: #5299ff;
 }
+.footer-background{
+  animation: scroll 30s linear infinite;
+  background-repeat: repeat-x !important;
+    position: relative;
+    height: 50vh;
+    top: -40%;
+    background-size: cover;
+    animation: scroll 30s linear infinite;
+    top: 10%;
+  bottom: 0;
+  width: 100%;
+  
+}
 
 /* .footer-background {
-  width: 10%;
   background-size: cover;
   animation: scroll 30s linear infinite;
   position: absolute;
