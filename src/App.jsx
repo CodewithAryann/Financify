@@ -6,6 +6,7 @@ import About from './components/About'
 import Eyes from './components/Eyes'
 import WhyChoose from './components/Why-choose'
 import Assistance from './components/Assistance'
+import Calculator from './components/Calculator'
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Eyes/>
       <WhyChoose/>
       <Assistance/>
+      <Calculator/>
     </div>
     
   )
