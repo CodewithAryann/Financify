@@ -170,7 +170,7 @@ ul.custom-bullets li::marker {
   color: white;
 }
 .btn-arrow:hover{
-  background: white
+  background: white;
 }
 
 #img-effect:hover ~ #img-to-scale {

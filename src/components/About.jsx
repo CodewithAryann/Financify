@@ -3,7 +3,7 @@ import { FaArrowUp } from "react-icons/fa6";
 
 function About() {
   return (
-    <div className="w-full pt-20 bg-black text-white  rounded-tl-3xl rounded-tr-3xl">
+    <div className="w-full pt-20 bg-white text-black rounded-tl-3xl rounded-tr-3xl">
       <h1 className='pr-20 pl-20 pb-8 font-["Montserrat"] text-3xl leading-[3.5vw] tracking-tighter'>
         Financify is a trusted name in the UAE mortgage industry, offering a
         personalized approach to secure the best possible mortgage for its
@@ -11,7 +11,7 @@ function About() {
         take pride in our commitment to build lasting relationships with our
         clients, which will be evident with our exceptional customer service.
       </h1>
-      <div className="line h-[1px] w-full bg-slate-400"></div>
+      <div className="line h-[1px] w-full bg-slate-950"></div>
       <div className="pl-20 pt-10 flex gap-10">
         <h1 className='font-["Montserrat"] w-[35vw]'>What you can expect:</h1>
         <p className='font-["Montserrat"] w-[29vw] '>
@@ -60,7 +60,7 @@ function About() {
           </div>
         </div>
       </div>
-      <div className="line h-[1px] w-full bg-slate-400 mt-10 mb-10"></div>
+      <div className="line h-[1px] w-full bg-slate-950 mt-10 mb-10"></div>
       <div className="new-purchase pl-16 ">
         <h1 className='text-3xl font-["Montserrat"] capitalize font-[500]'>
           New Purchase:
@@ -88,12 +88,12 @@ function About() {
               <div className="container flex items-center gap-[42.5vw] mb-10">
                 <div
                   id="img-effect"
-                  className="read-btn cursor-pointer mr-4 bg-white text-black w-[176px] pr-5 pl-5 pt-3 pb-3 rounded-2xl flex gap-7 group hover:bg-[linear-gradient(45deg, rgba(122,96,247,1) 0%, rgba(46,168,238,1) 100%)] mb-[8rem]"
+                  className="read-btn cursor-pointer mr-4 bg-black text-white w-[176px] pr-5 pl-5 pt-3 pb-3 rounded-2xl flex gap-7 group hover:bg-[linear-gradient(45deg, rgba(122,96,247,1) 0%, rgba(46,168,238,1) 100%)] mb-[8rem]"
                 >
                   <a className="text-[16px] flex items-center" href="">
                     Read More
-                    <div className="btn-arrow bg-black rounded-full w-[30px] h-[30px] mt-[1px] text-white ml-7 group-hover:bg-white transition-all duration-300 ease-in-out">
-                      <span className="flex rotate-[45deg] items-center mt-[10px] ml-[6px] group-hover:text-black transition-all duration-300 ease-in-out">
+                    <div className="btn-arrow bg-white rounded-full w-[30px] h-[30px] mt-[1px] text-black ml-7 group-hover:bg-black transition-all duration-300 ease-in-out">
+                      <span className="flex rotate-[45deg] items-center mt-[10px] ml-[6px] group-hover:text-white transition-all duration-300 ease-in-out">
                         <FaArrowUp />
                       </span>
                     </div>
