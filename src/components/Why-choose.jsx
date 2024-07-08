@@ -75,7 +75,7 @@ function Whychoose() {
                 <img style={{height:`10%`}}  src="https://financify.ae/wp-content/uploads/2023/06/Group-20-1.png" alt="" />
                 <img className="rotate" style={{height:`85px`, marginRight:`4px`, marginLeft:`4px`}} src="src/assets/group-2.png" alt="" />
             </div>
-            <div className="deal-txt mt-[7px] text-white">
+            <div className="deal-txt mt-[7px] text-white ">
               <div style={{textAlign:`center`, paddingTop:`0`,paddingBottom:`0`,gap:`1%`}} className="flex p-[8.5rem]">
                 <div style={{width:`35%`}}>
                   <h1 className="font-medium">Best Price Guaranteed</h1>
