@@ -182,9 +182,15 @@ ul.custom-bullets li::marker {
 }
 
 .img .rotate {
-  transition: transform 0.6s ease; /* Adjusted duration for smooth effect */
+  transition: transform 0.6s ease; 
 }
 
 .img .rotate:hover {
   transform: rotate(360deg);
+}
+.help::before{
+  content: url(https://financify.ae/wp-content/uploads/2023/06/Group-387.png);
+    position: absolute;
+    z-index: 9;
+    bottom: -70px;
 }
