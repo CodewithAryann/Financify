@@ -2,7 +2,7 @@ import React from 'react';
 
 function Contactus() {
   return (
-    <div className='bg-gray-200 py-10 rounded-tl-3xl rounded-tr-3xl mt-20'>
+    <div className='bg-white py-10 rounded-tl-3xl rounded-tr-3xl mt-20'>
       <div className='max-w-6xl mx-auto flex mt-20'>
         {/* Left side - Form */}
         <div style={{ background: `linear-gradient(45deg, rgba(122,96,247,1) 0%, rgba(46,168,238,1) 100%)` }} className='w-1/2 pr-10 rounded-md shadow-md'>
@@ -48,7 +48,7 @@ function Contactus() {
         {/* Right side - Contact Details with Background Image */}
         <div className='w-1/2 pl-10'>
           <div style={{ backgroundImage: `url('https://images.unsplash.com/photo-1560520031-3a4dc4e9de0c?q=80&w=1973&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')` }} className='bg-cover bg-center rounded-md text-white p-6'>
-            <div className='bg-gray-800 bg-opacity-75 p-6 rounded-md'>
+            <div style={{ background: `linear-gradient(45deg, rgb(122 96 247 / 39%) 0%, rgb(46, 168, 238) 100%)` }} className=' bg-opacity-75 p-6 rounded-md'>
               <h2 className='text-2xl font-bold mb-4'>Contact Details</h2>
               <p>
                 <strong>Phone:</strong><br />

@@ -8,6 +8,7 @@ import WhyChoose from './components/Why-choose'
 import Assistance from './components/Assistance'
 import Calculator from './components/Calculator'
 import Contactus from './components/Contact-us'
+import Footer from './components/Footer'
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <Assistance/>
       <Calculator/>
       <Contactus/>
+      <Footer/>
     </div>
     
   )
