@@ -192,5 +192,11 @@ ul.custom-bullets li::marker {
   content: url(https://financify.ae/wp-content/uploads/2023/06/Group-387.png);
     position: absolute;
     z-index: 9;
-    bottom: -70px;
+    bottom: -20px;
+}
+.help-2::before{
+  content: url(https://financify.ae/wp-content/uploads/2023/06/Group-386.png);
+    position: absolute;
+    right: 0.8%;
+    top: 2.8%;
 }
