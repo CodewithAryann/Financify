@@ -7,6 +7,7 @@ import Eyes from './components/Eyes'
 import WhyChoose from './components/Why-choose'
 import Assistance from './components/Assistance'
 import Calculator from './components/Calculator'
+import Contactus from './components/Contact-us'
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <WhyChoose/>
       <Assistance/>
       <Calculator/>
+      <Contactus/>
     </div>
     
   )
