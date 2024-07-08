@@ -7,11 +7,14 @@ body{
 }
 .link-hover {
   transition: color 0.3s;
+  font-weight: 600;
 }
+
 
 .link-hover:hover {
   font-weight: 500;
-  background: linear-gradient(45deg, rgba(122,96,247,1) 0%, rgba(46,168,238,1) 100%);
+  background: #0903f5;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
