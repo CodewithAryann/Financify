@@ -7,7 +7,7 @@ import { FaFacebookF, FaTwitter, FaLinkedinIn, FaInstagram, FaYoutube, FaTiktok 
 
 function Footer() {
   return (
-    <div className='footer w-full h-screen flex gap-10 p-10 pl-20 pr-20 font-["Montserrat"]'>
+    <div className='footer w-full h-screen flex gap-10 p-10 pl-20 pr-16 font-["Montserrat"]'>
       <div className='w-[16vw]'>
         <img className='mb-10' src="https://financify.ae/wp-content/uploads/2023/06/123456.png" alt="" />
         <div className='flex gap-2 mb-5'>
@@ -18,7 +18,7 @@ function Footer() {
         <div className='flex gap-2'><i className='mt-2'><FaPhoneAlt /></i><a href="">+971585899398</a></div>
         <a className='ml-6' href="">+971585655007</a>
       </div>
-      <div className='flex gap-[4rem]'>
+      <div className='flex gap-[2rem]'>
         <div className='text-[13px]'>
           <h1 className='mb-7'>Quick Links</h1>
           <div className='flex items-center mb-3'>
@@ -102,7 +102,7 @@ function Footer() {
         </div>
         <div>
           <h1 className='mb-7'>Social Icons</h1>
-          <div className='flex gap-4'>
+          <div className=' flex gap-4'>
             <a href="" className='social-icon bg-facebook'><FaFacebookF /></a>
             <a href="" className='social-icon bg-twitter'><FaTwitter /></a>
             <a href="" className='social-icon bg-linkedin'><FaLinkedinIn /></a>

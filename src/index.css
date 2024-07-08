@@ -209,46 +209,39 @@ ul.custom-bullets li::marker {
 @tailwind components;
 @tailwind utilities;
 
-@keyframes rotate360 {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
 .social-icon {
   @apply flex items-center justify-center w-12 h-12 rounded-full text-white transition-all duration-500 ease-in-out;
 }
-
 .bg-facebook {
-  @apply bg-blue-600;
+  background-color: rgb(192 197 207);
 }
 
 .bg-twitter {
-  @apply bg-blue-400;
+  background-color: rgb(192 197 207);
 }
 
 .bg-linkedin {
-  @apply bg-blue-800;
+  background-color: rgb(192 197 207);
 }
 
 .bg-instagram {
-  @apply bg-pink-600;
+  background-color: rgb(192 197 207);
 }
 
 .bg-youtube {
-  @apply bg-red-600;
+  background-color: rgb(192 197 207);
 }
 
 .bg-tiktok {
-  @apply bg-black;
+  background-color: rgb(192 197 207);
+}
+
+.social-icon {
+  transition: transform 0.6s ease;
 }
 
 .social-icon:hover {
-  animation: rotate360 0.5s forwards;
-  transform: rotate(0deg);
+  transform: rotate(360deg);
 }
 
 .social-icon.bg-facebook:hover {
@@ -273,4 +266,4 @@ ul.custom-bullets li::marker {
 
 .social-icon.bg-tiktok:hover {
   @apply bg-gray-700;
-}
+} 
