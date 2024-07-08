@@ -1,12 +1,13 @@
 import React from "react";
 import { MdEmail } from "react-icons/md";
+import { FaPhone } from "react-icons/fa6";
 
 function Assistance() {
   return (
     <div className="pr-20 pl-20">
       <div
         style={{ backgroundSize: `100% 100%`, padding: ` 70px 0px !important` }}
-        className='need-help relative overflow-hidden w-full h-[30vw] Assistance bg-[url("https://financify.ae/wp-content/uploads/2023/06/Rectangle-1687@2x.png")]'
+        className='need-help relative overflow-hidden w-full h-[27vw] Assistance bg-[url("https://financify.ae/wp-content/uploads/2023/06/Rectangle-1687@2x.png")]'
       >
         <div className="help "></div>
         <div className="help-2 overflow-hidden"></div>
@@ -23,10 +24,18 @@ function Assistance() {
             Apply For Free Consultation
           </h2>
         </div>
-        <div>
-            <div>
+        <div className="flex  gap-5 justify-center mt-5  text-white text-[107%]">
+            <div className="flex items-center gap-2">
             <i><MdEmail /></i>
-            <h1>info@financify.ae</h1>
+            <a href="">info@financify.ae</a>
+            </div>
+            <div className="flex items-center gap-2">
+                <i><FaPhone /></i>
+                <a href="">+971585899398</a>
+            </div>
+            <div className="flex items-center gap-2">
+                <i><FaPhone /></i>
+                <a href="">+971585655007</a>
             </div>
         </div>
       </div>
