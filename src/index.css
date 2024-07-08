@@ -204,3 +204,73 @@ ul.custom-bullets li::marker {
     right: 0.8%;
     top: 2.8%;
 }
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes rotate360 {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.social-icon {
+  @apply flex items-center justify-center w-12 h-12 rounded-full text-white transition-all duration-500 ease-in-out;
+}
+
+.bg-facebook {
+  @apply bg-blue-600;
+}
+
+.bg-twitter {
+  @apply bg-blue-400;
+}
+
+.bg-linkedin {
+  @apply bg-blue-800;
+}
+
+.bg-instagram {
+  @apply bg-pink-600;
+}
+
+.bg-youtube {
+  @apply bg-red-600;
+}
+
+.bg-tiktok {
+  @apply bg-black;
+}
+
+.social-icon:hover {
+  animation: rotate360 0.5s forwards;
+  transform: rotate(0deg);
+}
+
+.social-icon.bg-facebook:hover {
+  @apply bg-blue-500;
+}
+
+.social-icon.bg-twitter:hover {
+  @apply bg-blue-300;
+}
+
+.social-icon.bg-linkedin:hover {
+  @apply bg-blue-700;
+}
+
+.social-icon.bg-instagram:hover {
+  @apply bg-pink-500;
+}
+
+.social-icon.bg-youtube:hover {
+  @apply bg-red-500;
+}
+
+.social-icon.bg-tiktok:hover {
+  @apply bg-gray-700;
+}
