@@ -5,7 +5,7 @@ function Contactus() {
     <div className='bg-gray-200 py-10 rounded-tl-3xl rounded-tr-3xl'>
       <div className='max-w-4xl mx-auto flex mt-20'>
         {/* Left side - Form */}
-        <div className='w-1/2 pr-10 bg-white rounded-md shadow-md'>
+        <div style={{background:`linear-gradient(45deg, rgba(122,96,247,1) 0%, rgba(46,168,238,1) 100%)`}} className='w-1/2 pr-10 rounded-md shadow-md'>
           <h2 className='text-2xl font-bold mb-4 px-6 py-4  rounded-t-md'>Contact Us</h2>
           <form className='px-6 py-4' action='#' method='post'>
             <div className='mb-4'>
