@@ -75,9 +75,26 @@ function Whychoose() {
                 <img style={{height:`10%`}}  src="https://financify.ae/wp-content/uploads/2023/06/Group-20-1.png" alt="" />
                 <img className="rotate" style={{height:`85px`, marginRight:`4px`, marginLeft:`4px`}} src="src/assets/group-2.png" alt="" />
             </div>
-            <div></div>
-            <div></div>
-            <div></div>
+            <div className="deal-txt mt-[7px] text-white">
+              <div style={{textAlign:`center`, paddingTop:`0`,paddingBottom:`0`,gap:`1%`}} className="flex p-[8.5rem]">
+                <div style={{width:`35%`}}>
+                  <h1 className="font-medium">Best Price Guaranteed</h1>
+                  <p className="mt-3" style={{color:`#ffffffe0`}}>We compare several options to offer you honest and best rates, saving you more money in the long run</p>
+                </div>
+                <div style={{width:`35%`}}>
+                  <h1 className="font-medium">Easy Processing</h1>
+                  <p className="mt-3" style={{color:`#ffffffe0`}}>Once you appoint us all you need to do is to sit back and relax and we will take care of the rest</p>
+                </div>
+                <div style={{width:`35%`}}>
+                  <h1 className="font-medium">No Pre-Approval Fee</h1>
+                  <p className="mt-3" style={{color:`#ffffffe0`}}>Free pre-approvals and consultation will help you to take informed decisions.</p>
+                </div>
+                <div style={{width:`35%`}}>
+                  <h1 className="font-medium">Maximum Loan-To-Value Ratio</h1>
+                  <p className="mt-3" style={{color:`#ffffffe0`}}>Free pre-approvals and consultation will help you to take informed decisions.</p>
+                </div>
+              </div>
+            </div>
         </div>
     </div>
   );

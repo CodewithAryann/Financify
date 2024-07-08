@@ -178,13 +178,10 @@ ul.custom-bullets li::marker {
   transform: scale(0.95);
 }
 
-.rotate:hover  {
-  transition: transform 0.3s ease;
+.img .rotate {
+  transition: transform 0.6s ease; /* Adjusted duration for smooth effect */
 }
 
-.rotate:hover {
+.img .rotate:hover {
   transform: rotate(360deg);
-}
-.img img:hover:not(:hover) {
-  transform: none; /* Reset transform when not hovered */
 }
