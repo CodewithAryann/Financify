@@ -2,6 +2,9 @@ import React from 'react'
 import { FaLocationDot } from "react-icons/fa6";
 import { IoIosMail } from "react-icons/io";
 import { FaPhoneAlt } from "react-icons/fa";
+import { MdKeyboardDoubleArrowRight } from "react-icons/md";
+import { FaFacebookF } from "react-icons/fa6";
+
 
 function Footer() {
   return (
@@ -18,10 +21,88 @@ function Footer() {
         
 
       </div>
-      <div className='flex gap-20'>
-        <div><h1>Quick Links</h1></div>
-        <div><h1>Our Services</h1></div>
-        <div><h1>Privacy</h1></div>
+      <div className='flex gap-[4rem]'>
+        <div className='text-[13px]'>
+            <h1 className='mb-7'>Quick Links</h1>
+            <div className='flex items-center mb-3'>
+                <i><MdKeyboardDoubleArrowRight /></i>
+                <a href="">Home</a>
+            </div>
+            <div className='flex items-center mb-3'>
+                <i><MdKeyboardDoubleArrowRight /></i>
+                <a href="">About US</a>
+            </div>
+            <div className='flex items-center mb-3'>
+                <i><MdKeyboardDoubleArrowRight /></i>
+                <a href="">Services</a>
+            </div>
+            <div className='flex items-center mb-3'>
+                <i><MdKeyboardDoubleArrowRight /></i>
+                <a href="">FAQs</a>
+            </div>
+            <div className='flex items-center mb-3'>
+                <i><MdKeyboardDoubleArrowRight /></i>
+                <a href="">Career</a>
+            </div>
+            <div className='flex items-center mb-3'>
+                <i><MdKeyboardDoubleArrowRight /></i>
+                <a href="">Contact Us</a>
+            </div>
+            <div className='flex items-center mb-3'>
+                <i><MdKeyboardDoubleArrowRight /></i>
+                <a href="">Mortgage Calculator</a>
+            </div>
+            </div>
+        <div className='text-[13px]'>
+            <h1 className='mb-7'>Our Services</h1>
+            <div>
+            <div className='flex items-center mb-3'>
+                <i><MdKeyboardDoubleArrowRight /></i>
+                <a href="">New Purchase</a>
+            </div>
+            <div className='flex items-center mb-3'>
+                <i><MdKeyboardDoubleArrowRight /></i>
+                <a href="">Remortgage & Equity Release</a>
+            </div>
+            <div className='flex items-center mb-3'>
+                <i><MdKeyboardDoubleArrowRight /></i>
+                <a href="">Mortgage For Handover Properties</a>
+            </div>
+            <div className='flex items-cente mb-3'>
+                <i><MdKeyboardDoubleArrowRight /></i>
+                <a href="">Overseas Mortgage</a>
+            </div>
+            <div className='flex items-center mb-3'>
+                <i><MdKeyboardDoubleArrowRight /></i>
+                <a href="">Buy To Let Mortgage</a>
+            </div>
+            <div className='flex items-center mb-3'>
+                <i><MdKeyboardDoubleArrowRight /></i>
+                <a href="">Building Finance</a>
+            </div>
+            <div className='flex items-center mb-3'>
+                <i><MdKeyboardDoubleArrowRight /></i>
+                <a href="">House Construction Finance</a>
+            </div>
+            <div className='flex items-center mb-3'>
+                <i><MdKeyboardDoubleArrowRight /></i>
+                <a href="">Shariah-Compliant / Islamic Home Loans</a>
+            </div>
+            </div>
+            </div>
+        <div className='text-[13px] '>
+            <h1 className='mb-7'>Privacy</h1>
+            <div>
+            <div className='flex items-center mb-3'>
+                <i><MdKeyboardDoubleArrowRight /></i>
+                <a href="">Terms & Conditions</a>
+            </div>
+            <div className='flex items-center mb-3'>
+                <i><MdKeyboardDoubleArrowRight /></i>
+                <a href="">Privacy Policy</a>
+            </div>
+            </div>
+            </div>
         <div><h1>Social Icons</h1></div>
         
       </div>
