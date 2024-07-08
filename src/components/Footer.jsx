@@ -20,7 +20,7 @@ function Footer() {
       </div>
       <div className='flex gap-[2rem]'>
         <div className='text-[13px]'>
-          <h1 className='mb-7'>Quick Links</h1>
+          <h1 className='mb-7 font-semibold text-[20px]'>Quick Links</h1>
           <div className='flex items-center mb-3'>
             <i><MdKeyboardDoubleArrowRight /></i>
             <a href="">Home</a>
@@ -51,7 +51,7 @@ function Footer() {
           </div>
         </div>
         <div className='text-[13px]'>
-          <h1 className='mb-7'>Our Services</h1>
+          <h1 className='mb-7 font-semibold text-[20px]'>Our Services</h1>
           <div>
             <div className='flex items-center mb-3'>
               <i><MdKeyboardDoubleArrowRight /></i>
@@ -88,7 +88,7 @@ function Footer() {
           </div>
         </div>
         <div className='text-[13px]'>
-          <h1 className='mb-7'>Privacy</h1>
+          <h1 className='mb-7 font-semibold text-[20px]'>Privacy</h1>
           <div>
             <div className='flex items-center mb-3'>
               <i><MdKeyboardDoubleArrowRight /></i>
@@ -101,7 +101,7 @@ function Footer() {
           </div>
         </div>
         <div>
-          <h1 className='mb-7'>Social Icons</h1>
+          <h1 className='mb-7 font-semibold text-[20px]'>Social Icons</h1>
           <div className=' flex gap-4'>
             <a href="" className='social-icon bg-facebook'><FaFacebookF /></a>
             <a href="" className='social-icon bg-twitter'><FaTwitter /></a>
