@@ -8,7 +8,7 @@ import WhyChoose from './components/Why-choose'
 
 function App() {
   return (
-    <div className='   text-black'>
+    <div className='text-black'>
       <Navbar />
       <Landingpage/>
       <Secondpage/>
