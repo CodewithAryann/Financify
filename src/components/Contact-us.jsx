@@ -2,8 +2,8 @@ import React from 'react';
 
 function Contactus() {
   return (
-    <div className='bg-gray-200 py-10'>
-      <div className='max-w-4xl mx-auto flex'>
+    <div className='bg-gray-200 py-10 rounded-tl-3xl rounded-tr-3xl'>
+      <div className='max-w-4xl mx-auto flex mt-20'>
         {/* Left side - Form */}
         <div className='w-1/2 pr-10 bg-white rounded-md shadow-md'>
           <h2 className='text-2xl font-bold mb-4 px-6 py-4  rounded-t-md'>Contact Us</h2>
@@ -35,7 +35,7 @@ function Contactus() {
         </div>
 
         <div className='w-1/2 pl-10 bg-cover bg-center'>
-          <div style={{backgroundImage:`url('https://images.unsplash.com/photo-1560520031-3a4dc4e9de0c?q=80&w=1973&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')`}} className=' bg-opacity-75 text-white px-6 py-10 bg-cover'>
+          <div style={{backgroundImage:`url('https://images.unsplash.com/photo-1560520031-3a4dc4e9de0c?q=80&w=1973&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')`}} className=' bg-opacity-75 text-white px-6 py-10 bg-cover rounded-[5px]'>
             <h2 className='text-2xl font-bold mb-4'>Contact Details</h2>
             <p>
               <strong>Phone:</strong><br />
