@@ -24,19 +24,25 @@ function Assistance() {
             Apply For Free Consultation
           </h2>
         </div>
-        <div className="flex  gap-5 justify-center mt-5  text-white text-[107%]">
-            <div className="flex items-center gap-2">
-            <i><MdEmail /></i>
-            <a href="">info@financify.ae</a>
-            </div>
-            <div className="flex items-center gap-2">
-                <i><FaPhone /></i>
-                <a href="">+971585899398</a>
-            </div>
-            <div className="flex items-center gap-2">
-                <i><FaPhone /></i>
-                <a href="">+971585655007</a>
-            </div>
+        <div className="flex gap-5 justify-center mt-5 text-white text-[107%]">
+          <div className="flex items-center gap-2 hover:translate-y-[-2px] hover: transition-transform duration-300">
+            <i>
+              <MdEmail />
+            </i>
+            <a href="mailto:info@financify.ae">info@financify.ae</a>
+          </div>
+          <div className="flex items-center gap-2 hover:translate-y-[-2px] hover: transition-transform duration-300">
+            <i>
+              <FaPhone />
+            </i>
+            <a href="tel:+971585899398">+971585899398</a>
+          </div>
+          <div className="flex items-center gap-2 hover:translate-y-[-2px] hover: transition-transform duration-300">
+            <i>
+              <FaPhone />
+            </i>
+            <a href="tel:+971585655007">+971585655007</a>
+          </div>
         </div>
       </div>
     </div>
