@@ -272,29 +272,23 @@ ul.custom-bullets li::marker {
   left: 10px;
   color: #5299ff;
 }
-.footer-background{
-  animation: scroll 30s linear infinite;
-  background-repeat: repeat-x !important;
-    position: relative;
-    height: 50vh;
-    top: -40%;
-    background-size: cover;
-    animation: scroll 30s linear infinite;
-    top: 10%;
+
+.footer-background {
+  position: relative;
+  height: 50vh;
+  top: -20%;
   bottom: 0;
   width: 100%;
-  
+  background-size: cover;
+  background-repeat: repeat-x !important;
+  animation: scroll 30s linear infinite;
 }
 
-
-/* .footer-background {
-  background-size: cover;
-  animation: scroll 30s linear infinite;
-  position: absolute;
-  top: 10%;
-  bottom: 0;
-  width: 100%;
-  height: 80px;
-  z-index: 10;
-} */
-
+@keyframes scroll {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: -100% 0;
+  }
+}
