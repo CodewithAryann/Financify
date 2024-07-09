@@ -1,12 +1,15 @@
-import React from "react";
+import { motion } from "framer-motion";
+import React, { useState } from "react";
 
 function Whychoose() {
+  const[Ishovering,SetHovering]= useState(false);
+
   return (
     <div
       style={{
         background: `linear-gradient(45deg, rgba(122,96,247,1) 0%, rgba(46,168,238,1) 100%)`,
       }}
-      className="w-full py-20 bg- mt-5 rounded-tl-3xl rounded-tr-3xl mb-10 "
+      className="w-full py-20 rounded-tl-3xl rounded-tr-3xl mb-10 "
     >
       <div className="w-full px-20 border-b-[1px] pb-10">
         <h1 className='text-3xl font-["Montserrat"] uppercase font-semibold pt-5 text-white pl-1'>
@@ -15,9 +18,9 @@ function Whychoose() {
       </div>
       <div className="px-20">
         <div className="cards w-full flex gap-10 mt-10  ">
-          <div className="cardcontainer relative w-1/2 h-[75vh] transition-all cursor-default">
-          <h1 className="absolute z-[9] text-6xl font-medium font-['Montserrat'] leading-none tracking-tighter left-full -translate-x-1/2 top-1/2 -translate-y-1/2 text-zinc-950 ">SERVICE
-          {"SERVICE".split("").map((item,index)=><span>{item}</span>)}
+          <div onMouseEnter={()=>SetHovering(true)} onMouseLeave={()=>SetHovering(false)} className="cardcontainer relative w-1/2 h-[75vh] transition-all cursor-default">
+          <h1 className="absolute z-[9] text-6xl font-medium font-['Montserrat'] leading-none tracking-tighter left-full -translate-x-1/2 top-1/2 -translate-y-1/2 text-zinc-950 flex overflow-hidden ">SERVICE
+          {"SERVICE".split("").map((item,index)=><motion.span initial={{y:'100%'}} animate  className="inline-block">{item}</motion.span>)}
           </h1>
           <div className="card w-full h-full rounded-xl overflow-hidden bg-white">
             <img className="m-auto mb-5 mt-5 h-20" src="https://financify.ae/wp-content/uploads/2023/06/cloud-satellite-services-min.png" alt="" />
