@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import React, { useState } from "react";
 
-function Whychoose() {
+function Services() {
 
   return (
     <div 
@@ -90,4 +90,4 @@ function Whychoose() {
   );
 }
 
-export default Whychoose;
+export default Services;

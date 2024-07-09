@@ -4,7 +4,7 @@ import Landingpage from './components/Landingpage';
 import Secondpage from './components/Secondpage';
 import About from './components/About';
 import Eyes from './components/Eyes';
-import WhyChoose from './components/Why-choose';
+import Services from './components/Services';
 import Assistance from './components/Assistance';
 import Calculator from './components/Calculator';
 import Contactus from './components/Contact-us';
@@ -57,8 +57,8 @@ function App() {
       <section id="eyes">
         <Eyes />
       </section>
-      <section id="why-choose">
-        <WhyChoose />
+      <section id="Services">
+        <Services />
       </section>
       <section id="assistance">
         <Assistance />

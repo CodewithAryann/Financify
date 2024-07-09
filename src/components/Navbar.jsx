@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+// import React, { useState, useEffect } from 'react';
 import { Link } from 'react-scroll';
 
 function Navbar({ showNavbar, navbarColor }) {
@@ -16,7 +16,7 @@ function Navbar({ showNavbar, navbarColor }) {
             key={index}
             to={item}
             smooth={true}
-            duration={500}
+            duration={700}
             className={`text-lg capitalize font-[400] link-hover ${index === 4 && "ml-32"}`}
           >
             {item.replace(/^\w/, (c) => c.toUpperCase()).replace(/_/g, ' ')}
