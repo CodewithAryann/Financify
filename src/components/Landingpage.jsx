@@ -4,7 +4,7 @@ import videoFile from "../assets/video.mp4";
 
 function Landingpage() {
   return (
-    <div className="w-full h-screen  pt-2">
+    <div data-scroll data-scroll-section data-scroll-speed="-.3" className="w-full h-screen  pt-2">
       <div className="video">
         <video
           className="absolute top-0 left-0  object-cover z-[-1]"
