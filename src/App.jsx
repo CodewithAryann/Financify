@@ -9,8 +9,10 @@ import Assistance from './components/Assistance'
 import Calculator from './components/Calculator'
 import Contactus from './components/Contact-us'
 import Footer from './components/Footer'
-
+import LocomotiveScroll from 'locomotive-scroll';
 function App() {
+const locomotiveScroll = new LocomotiveScroll();
+
   return (
     <div className='text-black'>
       <Navbar />
