@@ -2,7 +2,6 @@ import { motion } from "framer-motion";
 import React, { useState } from "react";
 
 function Whychoose() {
-  const[Ishovering,SetHovering]= useState(false);
 
   return (
     <div
@@ -18,10 +17,7 @@ function Whychoose() {
       </div>
       <div className="px-20">
         <div className="cards w-full flex gap-10 mt-10  ">
-          <div onMouseEnter={()=>SetHovering(true)} onMouseLeave={()=>SetHovering(false)} className="cardcontainer relative w-1/2 h-[75vh] transition-all cursor-default">
-          <h1 className="absolute z-[9] text-6xl font-medium font-['Montserrat'] leading-none tracking-tighter left-full -translate-x-1/2 top-1/2 -translate-y-1/2 text-zinc-950 flex overflow-hidden ">SERVICE
-          {"SERVICE".split("").map((item,index)=><motion.span initial={{y:'100%'}} animate  className="inline-block">{item}</motion.span>)}
-          </h1>
+          <div className="cardcontainer relative w-1/2 h-[75vh] transition-all cursor-default">
           <div className="card w-full h-full rounded-xl overflow-hidden bg-white">
             <img className="m-auto mb-5 mt-5 h-20" src="https://financify.ae/wp-content/uploads/2023/06/cloud-satellite-services-min.png" alt="" />
             <h1 className="text-center text-[24px] mb-3 font-medium">Our Service</h1>
@@ -29,9 +25,6 @@ function Whychoose() {
           </div>
           </div>
           <div className="cardcontainer relative w-1/2 h-[75vh] transition-all cursor-default">
-          <h1 className="absolute z-[9] text-6xl font-medium font-['Montserrat'] leading-none tracking-tighter right-full translate-x-1/2 top-1/2 -translate-y-1/2 text-zinc-950 ">KNOWLEAGE
-          {"KNOWLEAGE".split("").map((item,index)=><span>{item}</span>)}
-          </h1>
           <div className="card w-full h-full rounded-xl overflow-hidden bg-white">
           <img className="m-auto mb-5 mt-5 h-20" src="https://financify.ae/wp-content/uploads/2023/06/ibm-watson-knowledge-studio@2x-min.png" alt="" />
             <h1 className="text-center text-[24px] mb-3 font-medium">Our Knowledge</h1>
@@ -42,9 +35,6 @@ function Whychoose() {
         </div>
         <div className="cards w-full flex gap-10 mt-10  ">
           <div className="cardcontainer relative w-1/2 h-[75vh] transition-all cursor-default ">
-          <h1 className="absolute z-[9] text-6xl font-medium font-['Montserrat'] leading-none tracking-tighter left-full -translate-x-1/2 top-1/2 -translate-y-1/2 text-zinc-950 ">SERVICE
-          {"RELATIONSHIPS".split("").map((item,index)=><span>{item}</span>)}
-          </h1>
           <div  className="card w-full h-full rounded-xl overflow-hidden bg-white">
             <img className="m-auto mb-5 mt-5 h-20" src="https://financify.ae/wp-content/uploads/2023/06/partnership-min.png" alt="" />
             <h1 className="text-center text-[24px] mb-3 font-medium">Our Relationships</h1>
@@ -52,9 +42,6 @@ function Whychoose() {
           </div>
           </div>
           <div className="cardcontainer relative w-1/2 h-[75vh] transition-all cursor-default">
-          <h1 className="absolute z-[9] text-6xl font-medium font-['Montserrat'] leading-none tracking-tighter right-full translate-x-1/2 top-1/2 -translate-y-1/2 text-zinc-950 ">KNOWLEAGE
-          {"TRANSPARENCYE".split("").map((item,index)=><span>{item}</span>)}
-          </h1>
           <div className="card w-full h-full rounded-xl  overflow-hidden bg-white">
           <img className="m-auto mb-5 mt-5 h-20" src="https://financify.ae/wp-content/uploads/2023/06/opacity-min.png" alt="" />
             <h1 className="text-center text-[24px] mb-3 font-medium">Our Transparencye</h1>
