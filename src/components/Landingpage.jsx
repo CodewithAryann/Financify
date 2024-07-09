@@ -16,7 +16,7 @@ function Landingpage() {
           if (entry.isIntersecting) {
             setNavbarColor('text-white');
           } else {
-            setNavbarColor('text-blue-700');
+            setNavbarColor('text-[#0e8effb8]');
           }
         });
       },
