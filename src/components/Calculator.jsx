@@ -54,7 +54,7 @@ function Calculator() {
   };
 
   return (
-    <div className='mt-10 bg-[url("https://images.unsplash.com/photo-1557683311-eac922347aa1?q=80&w=2029&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D")] w-full h-auto bg-cover p-10 flex flex-col items-center justify-center font-["Montserrat"] rounded-tl-3xl rounded-tr-3xl'>
+    <div data-scroll data-scroll-section data-scroll-speed="-.1" className='mt-16 bg-[url("https://images.unsplash.com/photo-1557683311-eac922347aa1?q=80&w=2029&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D")] w-full h-auto bg-cover p-10 flex flex-col items-center justify-center font-["Montserrat"] rounded-tl-3xl rounded-tr-3xl'>
       <div className='bg-[#d1d1d170] p-10 rounded-lg shadow-lg w-full max-w-[56rem] mt-10'>
         <div className='mb-5 text-center'>
           <h1 className='text-3xl font-bold text-gray-50 flex items-center justify-center gap-2 uppercase'>

@@ -5,7 +5,7 @@ import { FaPhone } from "react-icons/fa6";
 function Assistance() {
   return (
     <div className="pr-20 pl-20">
-      <div
+      <div  data-scroll data-scroll-section data-scroll-speed=".1"
         style={{ backgroundSize: `100% 100%`, padding: ` 70px 0px !important` }}
         className='need-help relative overflow-hidden w-full h-[27vw] Assistance bg-[url("https://financify.ae/wp-content/uploads/2023/06/Rectangle-1687@2x.png")]'
       >

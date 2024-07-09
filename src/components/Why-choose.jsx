@@ -4,7 +4,7 @@ import React, { useState } from "react";
 function Whychoose() {
 
   return (
-    <div
+    <div 
       style={{
         background: `linear-gradient(45deg, rgba(122,96,247,1) 0%, rgba(46,168,238,1) 100%)`,
       }}
