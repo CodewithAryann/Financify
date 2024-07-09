@@ -15,7 +15,7 @@ import {
 function Footer() {
   return (
     <div className="footer-cont w-full h-screen relative rounded-tl-3xl rounded-tr-3xl">
-      <div className='footer  flex gap-10 p-10 pl-20 pr-16 font-["Montserrat"]'>
+      <div className='footer flex gap-10 p-10 pl-20 pr-16 font-["Montserrat"] relative z-20'>
         <div className="w-[16vw]">
           <img
             className="mb-10"
