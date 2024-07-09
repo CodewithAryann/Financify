@@ -1,4 +1,3 @@
-// App.js
 import React, { useState, useEffect } from 'react';
 import Navbar from './components/Navbar';
 import Landingpage from './components/Landingpage';
@@ -44,16 +43,32 @@ function App() {
   }, []);
 
   return (
-    <div className='text-black'>
+    <div id="your-container-id" className='text-black'>
       <Navbar showNavbar={showNavbar} />
-      <Landingpage />
-      <Secondpage />
-      <About />
-      <Eyes />
-      <WhyChoose />
-      <Assistance />
-      <Calculator />
-      <Contactus />
+      <section id="home">
+        <Landingpage />
+      </section>
+      <section id="secondpage">
+        <Secondpage />
+      </section>
+      <section id="about">
+        <About />
+      </section>
+      <section id="eyes">
+        <Eyes />
+      </section>
+      <section id="why-choose">
+        <WhyChoose />
+      </section>
+      <section id="assistance">
+        <Assistance />
+      </section>
+      <section id="calculator">
+        <Calculator />
+      </section>
+      <section id="contact">
+        <Contactus />
+      </section>
       <Footer />
     </div>
   );

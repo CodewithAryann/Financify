@@ -14,7 +14,7 @@ function Landingpage() {
       (entries) => {
         entries.forEach((entry) => {
           if (entry.isIntersecting) {
-            setNavbarColor('text-white');
+            setNavbarColor('text-black');
           } else {
             setNavbarColor('text-[#0e8effb8]');
           }
