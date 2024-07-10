@@ -1,10 +1,34 @@
-// import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { Link } from 'react-scroll';
+import { gsap } from 'gsap';
 
 function Navbar({ showNavbar, navbarColor }) {
+  const navRef = useRef(null);
+
+  useEffect(() => {
+    if (navRef.current) {
+      if (showNavbar) {
+        console.log('Animating navbar to show');
+        gsap.to(navRef.current, {
+          y: 0,
+          duration: 0.3,
+          ease: 'power2.out',
+        });
+      } else {
+        console.log('Animating navbar to hide');
+        gsap.to(navRef.current, {
+          y: '-100%',
+          duration: 0.3,
+          ease: 'power2.out',
+        });
+      }
+    }
+  }, [showNavbar]);
+
   return (
     <div
-      className={`nav fixed z-[999] w-full pl-[3rem] pr-[3rem] py-[1.5rem] font-["Neue Montreal"] flex justify-between items-center transition-transform duration-300 ${showNavbar ? 'transform translate-y-0' : 'transform -translate-y-full'} ${navbarColor}`}
+      ref={navRef}
+      className={`nav fixed z-[999] w-full pl-[3rem] pr-[3rem] py-[1.5rem] font-["Neue Montreal"] flex justify-between items-center transition-colors duration-300 ${navbarColor}`}
       style={{ backdropFilter: 'blur(5px)' }}
     >
       <div>
