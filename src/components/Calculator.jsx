@@ -11,7 +11,6 @@ function Calculator() {
   const [exchangeRate, setExchangeRate] = useState(null);
 
   useEffect(() => {
-    // Fetch exchange rate when component mounts
     fetchExchangeRate();
   }, []);
 
