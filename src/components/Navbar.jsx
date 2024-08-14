@@ -50,5 +50,4 @@ function Navbar({ showNavbar, navbarColor }) {
     </div>
   );
 }
-
 export default Navbar;
