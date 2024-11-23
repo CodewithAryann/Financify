@@ -16,7 +16,6 @@ function Services() {
       </div>
       <div className="px-8 sm:px-20">
         <div className="cards w-full flex flex-col sm:flex-row gap-10 mt-10">
-          {/* Card 1 */}
           <div className="cardcontainer relative w-full sm:w-1/2 h-[45vh] sm:h-[75vh] transition-all cursor-default">
             <div className="card w-full h-full rounded-xl overflow-hidden bg-white">
               <img className="m-auto mb-5 mt-5 h-20" src="https://financify.ae/wp-content/uploads/2023/06/cloud-satellite-services-min.png" alt="" />
@@ -24,7 +23,6 @@ function Services() {
               <p className="text-center text-[16px] sm:text-[24px] pr-10 pl-10 tracking-tighter">We deliver exceptional customer service with a straightforward approach that gets the right result at speed. In a fast-moving and often stressful world, we remove the hassle from your mortgage process and provide end-to-end service.</p>
             </div>
           </div>
-          {/* Card 2 */}
           <div className="cardcontainer relative w-full sm:w-1/2 h-[45vh] sm:h-[75vh] transition-all cursor-default">
             <div className="card w-full h-full rounded-xl overflow-hidden bg-white">
               <img className="m-auto mb-5 mt-5 h-20" src="https://financify.ae/wp-content/uploads/2023/06/ibm-watson-knowledge-studio@2x-min.png" alt="" />
@@ -34,7 +32,6 @@ function Services() {
           </div>
         </div>
         <div className="cards w-full flex flex-col sm:flex-row gap-10 mt-10">
-          {/* Card 3 */}
           <div className="cardcontainer relative w-full sm:w-1/2 h-[45vh] sm:h-[75vh] transition-all cursor-default">
             <div className="card w-full h-full rounded-xl overflow-hidden bg-white">
               <img className="m-auto mb-5 mt-5 h-20" src="https://financify.ae/wp-content/uploads/2023/06/partnership-min.png" alt="" />
@@ -42,7 +39,6 @@ function Services() {
               <p className="text-center text-[16px] sm:text-[24px] pr-10 pl-10 tracking-tighter">We have strong business relationships with all prominent lenders in UAE. We can work as your Mortgage Search Engine with access to a wide spectrum of lenders and get you deals that are in your best interest.</p>
             </div>
           </div>
-          {/* Card 4 */}
           <div className="cardcontainer relative w-full sm:w-1/2 h-[45vh] sm:h-[75vh] transition-all cursor-default">
             <div className="card w-full h-full rounded-xl overflow-hidden bg-white">
               <img className="m-auto mb-5 mt-5 h-20" src="https://financify.ae/wp-content/uploads/2023/06/opacity-min.png" alt="" />

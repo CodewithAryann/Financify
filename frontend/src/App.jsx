@@ -57,7 +57,7 @@ function App() {
       <section id="eyes">
         <Eyes />
       </section>
-      <section id="Services">
+      <section id="services">
         <Services />
       </section>
       <section id="assistance">
