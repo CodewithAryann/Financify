@@ -14,44 +14,50 @@ import {
 
 function Footer() {
   return (
-    <div  className="footer-cont w-full h-screen relative rounded-tl-3xl rounded-tr-3xl">
-      <div className='footer flex gap-10 p-10 pl-20 pr-16 font-["Montserrat"] relative z-20'>
-        <div className="w-[16vw]">
-          <img
-            className="mb-10"
-            src="https://financify.ae/wp-content/uploads/2023/06/123456.png"
-            alt=""
-          />
-          <div className="flex gap-2 mb-5">
-            <i className="mt-1">
-              <FaLocationDot />
-            </i>
-            <p>
-              Office # 402C, Aspin
-              <br />
-              Commercial Tower, Sheikh <br />
-              Zayed Road, Dubai
-            </p>
-          </div>
-          <div className="flex items-center gap-2 mb-5">
-            <i>
-              <IoIosMail />
-            </i>
-            <a href="">info@financify.ae</a>
-          </div>
-          <div className="flex gap-2">
-            <i className="mt-2">
-              <FaPhoneAlt />
-            </i>
-            <a href="">+971585899398</a>
-          </div>
-          <a className="ml-6" href="">
-            +971585655007
-          </a>
-        </div>
-        <div className="flex gap-[15px]">
-          <div className="text-[15px]">
-            <h1 className="mb-7 font-semibold text-[20px]">Quick Links</h1>
+    <div className="footer-cont w-full h-auto sm:h-screen relative rounded-tl-3xl rounded-tr-3xl">
+      <div className="footer flex flex-col sm:flex-row md:flex-row gap-10 p-10 sm:p-14 md:p-20 pl-6 pr-6 sm:pl-20 sm:pr-16 font-['Montserrat'] relative z-20">
+      <div className="w-full sm:w-[16vw] mb-8 sm:mb-0">
+  <img
+    className="mb-10"
+    src="https://financify.ae/wp-content/uploads/2023/06/123456.png"
+    alt="Logo"
+  />
+  <div className="lg:flex gap-2 mb-5 sm:block hidden">
+    <i className="mt-1">
+      <FaLocationDot />
+    </i>
+    <p className="text-sm sm:text-base">
+      Office # 402C, Aspin
+      <br />
+      Commercial Tower, Sheikh <br />
+      Zayed Road, Dubai
+    </p>
+  </div>
+  <div className="lg:flex items-center gap-2 mb-5 sm:block hidden">
+    <i>
+      <IoIosMail />
+    </i>
+    <a href="mailto:info@financify.ae" className="text-sm sm:text-base">
+      info@financify.ae
+    </a>
+  </div>
+  <div className="lg:flex gap-2 sm:block hidden">
+    <i className="mt-2">
+      <FaPhoneAlt />
+    </i>
+    <a href="tel:+971585899398" className="text-sm sm:text-base">
+      +971585899398
+    </a>
+  </div>
+  <a className="ml-6 text-sm sm:text-base sm:block hidden" href="tel:+971585655007">
+    +971585655007
+  </a>
+</div>
+
+
+        <div className="flex flex-wrap sm:flex-nowrap md:flex-nowrap gap-[15px] sm:gap-10">
+          <div className="text-[15px] sm:text-base w-full sm:w-[30%] md:w-[25%]">
+            <h1 className="mb-7 font-semibold text-[20px] sm:text-2xl">Quick Links</h1>
             <div className="footer-links flex items-center mb-3">
               <i>
                 <MdKeyboardDoubleArrowRight />
@@ -62,7 +68,7 @@ function Footer() {
               <i>
                 <MdKeyboardDoubleArrowRight />
               </i>
-              <a href="">About US</a>
+              <a href="">About Us</a>
             </div>
             <div className="footer-links flex items-center mb-3">
               <i>
@@ -95,8 +101,9 @@ function Footer() {
               <a href="">Mortgage Calculator</a>
             </div>
           </div>
-          <div className="text-[15px]">
-            <h1 className="mb-7 font-semibold text-[20px]">Our Services</h1>
+
+          <div className="text-[15px] sm:text-base w-full sm:w-[30%] md:w-[25%]">
+            <h1 className="mb-7 font-semibold text-[20px] sm:text-2xl">Our Services</h1>
             <div>
               <div className="footer-links flex items-center mb-3">
                 <i>
@@ -148,8 +155,9 @@ function Footer() {
               </div>
             </div>
           </div>
-          <div className="text-[15px]">
-            <h1 className="mb-7 font-semibold text-[20px]">Privacy</h1>
+
+          <div className="text-[15px] sm:text-base w-full sm:w-[30%] md:w-[25%]">
+            <h1 className="mb-7 font-semibold text-[20px] sm:text-2xl">Privacy</h1>
             <div>
               <div className="footer-links flex items-center mb-3">
                 <i>
@@ -165,34 +173,36 @@ function Footer() {
               </div>
             </div>
           </div>
-          <div>
-            <h1 className="mb-7 font-semibold text-[20px]">Social Icons</h1>
-            <div className="flex gap-4">
-              <a href="" className="social-icon bg-facebook">
-                <FaFacebookF />
-              </a>
-              <a href="" className="social-icon bg-twitter">
-                <FaTwitter />
-              </a>
-              <a href="" className="social-icon bg-linkedin">
-                <FaLinkedinIn />
-              </a>
-            </div>
-            <div className="flex gap-4 mt-3">
-              <a href="" className="social-icon bg-instagram move-down">
-                <FaInstagram />
-              </a>
-              <a href="" className="social-icon bg-youtube move-down">
-                <FaYoutube />
-              </a>
-              <a href="" className="social-icon bg-tiktok move-down">
-                <FaTiktok />
-              </a>
-            </div>
-          </div>
+
+          <div className="w-full sm:w-[30%] md:w-[25%]">
+  <h1 className="mb-7 font-semibold text-[20px] sm:text-2xl">Social Icons</h1>
+  <div className="flex gap-4 mb-3 sm:flex-row flex-wrap sm:justify-start">
+    <a href="" className="social-icon bg-facebook">
+      <FaFacebookF />
+    </a>
+    <a href="" className="social-icon bg-twitter">
+      <FaTwitter />
+    </a>
+    <a href="" className="social-icon bg-linkedin">
+      <FaLinkedinIn />
+    </a>
+  </div>
+  <div className="flex gap-4 sm:flex-row flex-wrap sm:justify-start">
+    <a href="" className="social-icon bg-instagram move-down">
+      <FaInstagram />
+    </a>
+    <a href="" className="social-icon bg-youtube move-down">
+      <FaYoutube />
+    </a>
+    <a href="" className="social-icon bg-tiktok move-down">
+      <FaTiktok />
+    </a>
+  </div>
+</div>
+
         </div>
       </div>
-      <div className='footer-background bg-[url("src/assets/group.png")]'></div>
+      <div className="footer-background bg-[url('https://financify.ae/wp-content/uploads/2023/06/Group-388.png')] bg-cover bg-center"></div>
     </div>
   );
 }
