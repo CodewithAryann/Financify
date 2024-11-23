@@ -32,22 +32,37 @@ function Navbar({ showNavbar, navbarColor }) {
       style={{ backdropFilter: 'blur(5px)' }}
     >
       <div>
-        <img className='w-[8rem]' src="https://financify.ae/wp-content/uploads/2023/06/123456.png" alt="Logo" />
+        <img className="w-[8rem]" src="https://financify.ae/wp-content/uploads/2023/06/123456.png" alt="Logo" />
       </div>
-      <div className='links flex gap-10 cursor-pointer'>
+      <div className="links flex gap-10 items-center cursor-pointer">
         {["home", "about", "services", "contact", "calculator"].map((item, index) => (
           <Link
             key={index}
             to={item}
             smooth={true}
             duration={700}
-            className={`text-lg capitalize font-[400] link-hover ${index === 4 && "ml-32"}`}
+            className={`text-lg capitalize font-[400] link-hover ${index >= 4 ? "mr-32" : ""}`}
           >
             {item.replace(/^\w/, (c) => c.toUpperCase()).replace(/_/g, ' ')}
           </Link>
         ))}
+
+        {/* Add Login and Sign Up links */}
+        <a
+          href="http://localhost:3000/login"
+          className="text-lg font-[500] hover:text-[#0e8eff] transition-colors duration-300"
+        >
+          Login
+        </a>
+        <a
+          href="http://localhost:3000/signup"
+          className="text-lg font-[500] hover:text-[#0e8eff] transition-colors duration-300"
+        >
+          Sign Up
+        </a>
       </div>
     </div>
   );
 }
+
 export default Navbar;

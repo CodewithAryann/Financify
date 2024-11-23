@@ -1,32 +1,44 @@
 const express = require('express');
-const cors = require('cors');
-const bodyParser = require('body-parser');
-
+const path = require('path');
 const app = express();
 
-app.use(cors());
-app.use(bodyParser.json());
+// Middleware to parse form data
+app.use(express.urlencoded({ extended: true }));
 
-const users = []; // Temporary storage (for testing purposes)
-
-app.post('/signup', (req, res) => {
-    const { email, password } = req.body;
-    if (users.find(user => user.email === email)) {
-        return res.status(400).json({ message: 'User already exists' });
-    }
-    users.push({ email, password });
-    res.status(201).json({ message: 'User created successfully' });
+// Serve login file
+app.get('/login', (req, res) => {
+  const signupSuccess = req.query.signupSuccess;
+  res.sendFile(path.join(__dirname, 'login.html'), { signupSuccess });
 });
 
-app.post('/login', (req, res) => {
-    const { email, password } = req.body;
-    const user = users.find(user => user.email === email && user.password === password);
-    if (!user) {
-        return res.status(401).json({ message: 'Invalid credentials' });
-    }
-    res.status(200).json({ message: 'Login successful' });
+// Serve signup file
+app.get('/signup', (req, res) => {
+  res.sendFile(path.join(__dirname, 'signup.html'));
 });
 
-app.listen(5000, () => {
-    console.log('Server is running on port 5000');
+// Handle login form submission
+app.post('/api/login', (req, res) => {
+  const { username, password } = req.body;
+  // Simple login logic (you can expand this with authentication, etc.)
+  console.log(`Login attempt: ${username}, ${password}`);
+  
+  // Simulate a successful login
+  res.send('Login successful!');
+});
+
+// Handle signup form submission
+app.post('/api/signup', (req, res) => {
+  const { username, email, password } = req.body;
+  
+  // Simulate a signup (you can expand with actual database logic)
+  console.log(`Signup attempt: ${username}, ${email}, ${password}`);
+  
+  // After successful signup, redirect to login page with success message
+  res.redirect('/login?signupSuccess=true');
+});
+
+// Start the server
+const PORT = 3000;
+app.listen(PORT, () => {
+  console.log(`Server running on http://localhost:${PORT}`);
 });
